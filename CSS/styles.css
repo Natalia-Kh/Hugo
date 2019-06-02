@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.eot') format("eot");
+    src: url('../fonts/Lato-Regular.woff') format("woff") ,
+    url('/fonts/Lato-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.eot') format("eot");
+    src: url('../fonts/Lato-Bold.woff') format("woff") ,
+    url('/fonts/Lato-Bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.txtBold {
+     font-family: 'Lato-Bold', serif; 
+    }
+.txtNor {
+        font-family: 'Lato-Regular', serif; 
+       }
+
+div {  
+    width: 800px;
+} 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items:  center;
+    height: 100%;
+    margin-top: 38%;
+    align-self:  flex-start;
+    /*align-content: space-between;*/
+    flex-wrap: nowrap;
+    font-size: 18pt;
+}
+.hd {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items:  flex-start;
+   font-size: 40pt;
+ }
+ .clr {
+    color: cornflowerblue;
+}
+ .ft {
+    width: 800px; 
+    font-weight:bold;
+    font-size: 13pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+ }
+ .box {
+  /*  font-weight: normal;*/ 
+  display: /*inline-block; */ flex;
+   flex-direction: row;
+    justify-content: flex-start; 
+   /* margin: 5px 0;*/
+ }
+ .table {
+    display: table;
+    padding: 0;
+    border-spacing: 5px;
+  }
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+  }
+ .item {
+	display: inline-block;
+    margin-right: 20px ;
+}
+
+ .social {
+	font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+.a.svg {
+    position: relative;
+    display: inline-block;
+}
+.img {
+    pointer-events: none;
+    margin-right: 25px;
+  }
+  
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.lin { 
+    margin-right: 25px;
+    text-decoration: none; 
+    color: white;
+}
+.str {
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: dimgrey
+}
