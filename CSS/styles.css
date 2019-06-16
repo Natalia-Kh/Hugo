@@ -49,6 +49,7 @@ div {
    justify-content: flex-start;
    align-items:  flex-start;
    font-size: 50px;
+   margin-top: 50px;
  }
  .clr {
     color: #adbbff;
@@ -61,6 +62,7 @@ div {
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
+    margin-top: 10px;
  }
  /*.box {
     font-weight: normal;
@@ -122,6 +124,10 @@ div {
 .str {
     font-size: 13px;
     text-transform: uppercase;
-    color: #5a5a5d
+    color: #5a5a5d;
+    margin-top: 70px;
 }
 
+.flex-item{
+  margin-top: 100px;
+}
